@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the specific trade-off discussed regarding the 'Learning Rate' in Stochastic Gradient Descent on page 50?",
+    "category": "factual",
+    "expected_answer": "Large learning rates can lead to divergence, while small ones make convergence slow."
+  },
+  {
+    "question": "Compare the vanishing gradient problem in standard RNNs versus LSTMs according to chapter 9.",
+    "category": "factual",
+    "expected_answer": "LSTMs use memory cells and gates to mitigate vanishing gradients that plague standard RNNs."
+  },
+  {
+    "question": "How does Multi-Head Attention combine information from different subspaces?",
+    "category": "factual",
+    "expected_answer": "By concatenating the heads and then applying a linear projection."
+  },
+  {
+    "question": "What happens if we set the Dropout probability to 1.0 during training?",
+    "category": "factual",
+    "expected_answer": "All activations would be zeroed out, and the network would learn nothing."
+  },
+  {
+    "question": "How do you recipes for baking a chocolate cake mentioned in the textbook?",
+    "category": "out-of-scope",
+    "expected_answer": "I don't have information on baking cakes in this Deep Learning textbook."
+  },
+  {
+    "question": "Who is the US president in 1945?",
+    "category": "out-of-scope",
+    "expected_answer": "This is outside the scope of the deep learning material."
+  },
+  {
+    "question": "What are the key differences between AlexNet and VGG in terms of depth?",
+    "category": "factual",
+    "expected_answer": "VGG is deeper, using consistent 3x3 convolutions compared to AlexNet's larger initial filters."
+  },
+  {
+    "question": "What is the purpose of 'Label Smoothing' in regularization?",
+    "category": "factual",
+    "expected_answer": "To prevent the model from becoming too confident in its predictions and improve generalization."
+  },
+  {
+    "question": "What is the capital of France?",
+    "category": "out-of-scope",
+    "expected_answer": "Not covered in the textbook."
+  },
+  {
+    "question": "How does Weight Decay relate to L2 Regularization?",
+    "category": "factual",
+    "expected_answer": "They are mathematically equivalent for standard SGD."
+  }
+]
