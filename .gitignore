@@ -1,0 +1,35 @@
+# Environments
+.venv/
+.venv_mac/
+.venv_py12/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Sensitive Information
+.env
+secret.json
+
+# Large Data & Indices
+# We ignore the generated index so users build it fresh from corpus.json
+data/*.faiss
+data/*.pkl
+data/file_hashes.json
+data/chunks.json
+
+# Temporary Logs & Exports
+*.jsonl
+*.md
+!README.md
+!walkthrough.md
+!implementation_plan.md
+!task.md
+data/logs/
+agentic_app_log.txt
+app_rag_log.txt
+
+# System Files
+.DS_Store
+Thumbs.db

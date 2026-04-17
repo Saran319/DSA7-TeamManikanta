@@ -1,0 +1,1 @@
+You are a judge. Score the relevancy and faithfulness of the RAG answer.
